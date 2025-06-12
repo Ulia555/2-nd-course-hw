@@ -28,6 +28,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  overflow-x: hidden;
 }
 .top__animation-strip {
   position: absolute;
@@ -37,7 +38,7 @@ body {
   display: flex;
   flex-direction: row;
   gap: 50px;
-  padding: 21px 49px;
+  padding: 27px 49px;
 }
 .top__animation-text {
   position: relative;
@@ -47,6 +48,10 @@ body {
   text-transform: uppercase;
   color: #202027;
   white-space: nowrap;
+}
+.top__animation-star {
+  width: 36px;
+  height: 36px;
 }
 
 .banner {
@@ -157,4 +162,80 @@ body {
 .cards-ab-gm:hover {
   position: relative;
   transform: scale(1.1);
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  .top {
+    height: 700px;
+    background-image: url(./image/фон-баннер-моб.png);
+  }
+  .top__animation-strip {
+    gap: 28px;
+    padding: 16px 24px;
+  }
+  .top__animation-text {
+    font-size: 16px;
+  }
+  .top__animation-star {
+    width: 20px;
+    height: 20px;
+  }
+  .banner {
+    width: 100%;
+    padding-top: 147px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .banner__heading {
+    font-size: 40px;
+    text-align: center;
+  }
+  .banner__text {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 36px;
+  }
+  .banner__link-go {
+    width: 285px;
+    height: 55px;
+    font-size: 16px;
+  }
+  .banner__link-go:hover {
+    border: 1px solid #000000;
+    background: transparent;
+    color: #202027;
+  }
+  .about-games {
+    display: none;
+    padding-top: 48px;
+  }
+  .about-games__heading {
+    font-size: 40x;
+  }
+  .about-games__text {
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-top: 24px;
+    margin-bottom: 36px;
+  }
+  .cards-gm {
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cards-ab-gm {
+    width: 344px;
+  }
+  .cards-ab-gm__image {
+    width: 100%;
+    padding-bottom: 30px;
+  }
 }/*# sourceMappingURL=index.css.map */
