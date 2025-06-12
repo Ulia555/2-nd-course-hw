@@ -212,6 +212,7 @@ body {
     color: #202027;
   }
   .about-games {
+    display: none;
     padding-top: 48px;
   }
   .about-games__heading {

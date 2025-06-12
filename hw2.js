@@ -69,3 +69,4 @@ let user = {
 
 let nameNAme = prompt ('Привет, ИМЯ!');
 alert (`Привет, ${nameNAme}!`);
+
