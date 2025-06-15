@@ -108,15 +108,16 @@ padding-top: 196px;
 
 }
 
-.about-games {
-padding-top: 94px;
-
-    &__heading {
+.heading {
         font-weight: 700;
         font-size: 64px;
         line-height: 100%;
         color: $color-white;
     }
+
+.about-games {
+padding-top: 94px;
+background-image: url(./image/фон-об-играх.png);
 
     &__text {
         font-weight: 400;
@@ -152,6 +153,8 @@ color: $color-black;
 
     &__image {
         padding-bottom: 32px;
+        border-radius: 30px;
+        width: 378px;
     }
 
     &__nomber {
@@ -189,6 +192,90 @@ color: $color-black;
    
 }
 
+
+.mini-games {
+background-image: url(./image/фон-мини-игры.png);
+padding-top: 96px;
+padding-bottom: 144px;
+}
+
+.mini-games-cards {
+padding-top: 72px;
+text-decoration-line: none;
+display: flex;
+flex-direction: column;
+gap: 32px;
+
+&__cont {
+width: 1200px;
+height: 500px;
+border-radius: 30px;
+background: $color-white;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+text-decoration: none;
+}
+
+&__info {
+    display: flex;
+    flex-direction: column;
+    margin: 48px;
+}
+
+&__heading {
+font-family: Montserrat;
+font-weight: 700;
+font-size: 48px;
+color: $color-black;
+}
+
+&__subtitle {
+font-family: Montserrat;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+color: $color-black;
+padding-top: 24px;
+padding-bottom: 36px;
+}
+
+&__button {
+font-family: Montserrat;
+font-weight: 600;
+font-size: 24px;
+line-height: 142%;
+text-align: center;
+width: 247px;
+height: 66px;
+border-radius: 60px;
+padding: 16px 28px;
+background-color: $color-black;
+color: $color-white;
+}
+
+&__img {
+border-radius: 30px;
+width: 600px;
+}
+
+}
+
+.footer {
+background: $color-green;
+height: 150px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+&__text {
+font-family: Montserrat;
+font-weight: 600;
+font-size: 24px;
+color: #000000;
+}
+
+}
 
 
 @import 'mobile'
