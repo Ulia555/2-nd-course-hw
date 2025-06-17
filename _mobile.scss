@@ -1,3 +1,9 @@
+$color-white: #FFFFFF;
+$color-black: #202027;
+$color-light-green: #E1FF8F;
+$color-green: #BCEC30;
+
+
 @media (max-width: 767px) {
 
 .center {
@@ -53,7 +59,7 @@ align-items: center;
         &:hover {
             border: 1px solid #000000;
             background: transparent;
-            color: $color-black;
+            color: #000000;
         }
     }}
 
@@ -91,4 +97,57 @@ width: 344px;
     }
 }
 
+
+
+.mini-games {
+padding-top: 48px;
+padding-bottom: 10px;
 }
+
+.mini-games-cards {
+padding-top: 48px;
+gap: 24px;
+
+&__cont {
+width: 344px;
+height: 100%;
+flex-direction: column;
+}
+
+&__info {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+&__heading {
+font-size: 32px;
+}
+
+&__subtitle {
+font-size: 16px;
+padding-top: 16px;
+padding-bottom: 32px;
+}
+
+&__button {
+font-size: 16px;
+width: 285px;
+height: 55px;
+}
+
+&__img {
+border-radius: 30px;
+width: 344px;
+height: 284px;
+}
+}
+
+.footer {
+height: 100px;
+
+&__text {
+font-size: 16px;
+}
+
+}}
