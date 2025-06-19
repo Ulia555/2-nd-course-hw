@@ -1,0 +1,157 @@
+$color-white: #FFFFFF;
+$color-black: #202027;
+$color-light-green: #E1FF8F;
+$color-green: #BCEC30;
+
+
+@media (max-width: 767px) {
+
+.center {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+.top {
+    height: 700px;
+    background-image: url(./image/фон-баннер-моб.png);
+
+
+ &__animation-strip {
+        gap: 28px;
+    padding: 16px 24px;
+}
+
+&__animation-text {
+        font-size: 16px;
+}
+
+&__animation-star {
+            width: 20px;
+            height: 20px;
+        }
+
+}
+
+.banner {
+width: 100%;
+padding-top: 147px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+    &__heading {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    &__text {
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        margin-bottom: 36px;
+    }
+
+    &__link-go {
+        width: 285px;
+        height: 55px;
+        font-size: 16px;
+
+        &:hover {
+            border: 1px solid #000000;
+            background: transparent;
+            color: #000000;
+        }
+    }}
+
+    .about-games {
+        display: none;
+padding-top: 48px;
+
+    &__heading {
+        font-size: 40x;
+    }
+
+    &__text {
+        font-size: 18px;
+        line-height: 20px;
+        color: $color-white;
+        margin-top: 24px;
+        margin-bottom: 36px;
+        
+}
+}
+
+.cards-gm {
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+}
+
+.cards-ab-gm {
+width: 344px;
+
+ &__image {
+    width: 100%;
+        padding-bottom: 30px;
+    }
+}
+
+
+
+.mini-games {
+padding-top: 48px;
+padding-bottom: 10px;
+}
+
+.mini-games-cards {
+padding-top: 48px;
+gap: 24px;
+
+&__cont {
+width: 344px;
+height: 100%;
+flex-direction: column;
+
+&_revers {
+    flex-direction: column-reverse;
+}
+}
+
+&__info {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+&__heading {
+font-size: 32px;
+}
+
+&__subtitle {
+font-size: 16px;
+padding-top: 16px;
+padding-bottom: 32px;
+}
+
+&__button {
+font-size: 16px;
+width: 285px;
+height: 55px;
+}
+
+&__img {
+border-radius: 30px;
+width: 344px;
+height: 284px;
+}
+}
+
+.footer {
+height: 100px;
+
+&__text {
+font-size: 16px;
+}
+
+}}
