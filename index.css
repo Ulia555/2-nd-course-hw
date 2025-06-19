@@ -191,6 +191,9 @@ body {
   justify-content: space-between;
   text-decoration: none;
 }
+.mini-games-cards__cont_revers {
+  display: flex;
+}
 .mini-games-cards__info {
   display: flex;
   flex-direction: column;
@@ -330,6 +333,10 @@ body {
     width: 344px;
     height: 100%;
     flex-direction: column;
+  }
+  .mini-games-cards__cont_revers {
+    display: flex;
+    flex-direction: column-reverse;
   }
   .mini-games-cards__info {
     display: flex;
