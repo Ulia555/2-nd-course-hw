@@ -294,12 +294,12 @@ body {
     background: transparent;
     color: #000000;
   }
+  .heading {
+    font-size: 40px;
+  }
   .about-games {
     display: none;
     padding-top: 48px;
-  }
-  .about-games__heading {
-    font-size: 40x;
   }
   .about-games__text {
     font-size: 18px;
@@ -335,7 +335,6 @@ body {
     flex-direction: column;
   }
   .mini-games-cards__cont_revers {
-    display: flex;
     flex-direction: column-reverse;
   }
   .mini-games-cards__info {
