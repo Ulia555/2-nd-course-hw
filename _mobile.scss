@@ -1,0 +1,94 @@
+@media (max-width: 767px) {
+
+.center {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+.top {
+    height: 700px;
+    background-image: url(./image/фон-баннер-моб.png);
+
+
+ &__animation-strip {
+        gap: 28px;
+    padding: 16px 24px;
+}
+
+&__animation-text {
+        font-size: 16px;
+}
+
+&__animation-star {
+            width: 20px;
+            height: 20px;
+        }
+
+}
+
+.banner {
+width: 100%;
+padding-top: 147px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+    &__heading {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    &__text {
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        margin-bottom: 36px;
+    }
+
+    &__link-go {
+        width: 285px;
+        height: 55px;
+        font-size: 16px;
+
+        &:hover {
+            border: 1px solid #000000;
+            background: transparent;
+            color: $color-black;
+        }
+    }}
+
+    .about-games {
+        display: none;
+padding-top: 48px;
+
+    &__heading {
+        font-size: 40x;
+    }
+
+    &__text {
+        font-size: 18px;
+        line-height: 20px;
+        color: $color-white;
+        margin-top: 24px;
+        margin-bottom: 36px;
+        
+}
+}
+
+.cards-gm {
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+}
+
+.cards-ab-gm {
+width: 344px;
+
+ &__image {
+    width: 100%;
+        padding-bottom: 30px;
+    }
+}
+
+}
